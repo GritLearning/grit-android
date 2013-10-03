@@ -33,3 +33,11 @@ you can run the following command to copy the binary over:
     $ adb install -r bin/Grit-debug.apk
     
 If you into trouble shout out on the mailing list and then enhance the docs here with what you learned.
+
+
+Building Grit for the team
+---------------------
+
+1) Edit the `AndroidManifest.xml` in this project and change the value of `android:versionName` to be today's date in YYYY-MM-DD format. 
+    * this lets us differentiate between builds when we discuss them. 
+2) Export the app from Eclipse using the wizard (following the instructions at http://developer.android.com/tools/publishing/app-signing.html#ExportWizard)
